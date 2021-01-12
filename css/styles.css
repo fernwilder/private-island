@@ -1,19 +1,35 @@
 h1 {
-  color: goldenrod;
+  color: darkgoldenrod;
   text-align: center;
 }
 
 h2 {
   font-style: strong;
   text-align: center;
+  color: coral;
 }
 
 h3 {
   font-style: italic;
   text-align: center;
+  color: darkgoldenrod;
 }
 
-p {
-  text-align: center;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+ background-color: coral;
+}
+
+li {
+  dispay: inline;
+  padding: 10px 30px;
+  float: left;
+}
+
+body {
+  background-color: darksalmon;
 }
 
